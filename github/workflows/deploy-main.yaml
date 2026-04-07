@@ -22,8 +22,3 @@ jobs:
     aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
     aws_default_region: ap-southeast-2
     app_port: 3000
-    
-
-    #provide a secret called 'DOT_ENV' to append environment variables to the .env file 
-    #dot_env: ${{secrets.DOT_ENV}}
-
